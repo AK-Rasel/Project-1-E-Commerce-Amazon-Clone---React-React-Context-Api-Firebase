@@ -1,4 +1,5 @@
 import "./Product.css";
+import PropTypes from "prop-types";
 
 import StarIcon from "@mui/icons-material/Star";
 const Product = ({ title, price, rating, image }) => {
@@ -22,6 +23,13 @@ const Product = ({ title, price, rating, image }) => {
       </div>
     </div>
   );
+};
+
+Product.propTypes = {
+  title: PropTypes.node,
+  price: PropTypes.node,
+  rating: PropTypes.node,
+  image: PropTypes.node,
 };
 
 export default Product;

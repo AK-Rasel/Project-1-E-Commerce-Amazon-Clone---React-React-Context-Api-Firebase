@@ -73,6 +73,7 @@
   color: white;
   margin-right: 50px;
   margin-left: 10px;
+  cursor: pointer;
 }
 .nav__basketCount {
   margin-left: 10px;
